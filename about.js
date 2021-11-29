@@ -1,14 +1,18 @@
-console.log("hello world");
-
-
-
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('Form submitted successfully!');
 }
 
 
 let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
+
+function hoverDuck() {
+	alert('Thank you! *quack*');
+}
+
+let duck = document.querySelector('#duck');
+
+duck.addEventListener('mouseover', hoverDuck);

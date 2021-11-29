@@ -1,6 +1,81 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
 
-<br>
-<br>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+    <section>
+        
+        <h1>Welcome to...</h1>
 
-<a href="./home.html"><< Back </a>
+        <h2>My online profile!</h2>
+        
+        <br>
+    </section>
+
+    <section>
+        <div id="list-container">
+            <div>
+                <p>Skills:</p>
+                
+                <ul class="three-lists">
+                    <li>Programming</li>
+                    <li>Catching lizards</li>
+                    <li>Strategizing</li>
+                </ul>
+                
+                <br>
+            </div>
+
+            <div>
+                <p>Interests:</p>
+                
+                <ul class="three-lists">
+                    <li>Religion</li>
+                    <li>History</li>
+                    <li>Family</li>
+                </ul>
+                
+                <br>
+            </div>
+
+            <div>
+                <p>Career Goals:</p>
+                
+                <ul class="three-lists">
+                    <li>Join my grandpa's company</li>
+                    <li>Buy land and invest into raw resources</li>
+                    <li>Support large family</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <br>
+            <button id="color" class="favorites">My Favorite Color</button>
+            <button id="place" class="favorites">My Favorite Place</button>
+            <button id="ritual" class="favorites">My Favorite Ritual</button>
+        <br>
+    </section>
+
+    <section>
+        <form id="into-abyss">
+            Send text into the abyss!
+            <input type="text" id="abyss-input">
+            <input type="submit" value="Into the pit!">
+        </form>
+    </section>
+
+	<script src="profile.js"></script>
+</body>
+</html>
